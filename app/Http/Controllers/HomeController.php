@@ -44,4 +44,9 @@ class HomeController extends Controller
 
         return 'Usuario guardado!';
     }
+
+    public function getListUser()
+    {
+        return view('listuser');
+    }
 }

@@ -28,3 +28,8 @@ Route::post('agregar-usuario', [
     'uses'  => 'HomeController@postCreateUser',
     'as'    => 'admin.postCreateUser'
 ]);
+
+Route::get('listar-usuarios', [
+    'uses'  => 'HomeController@getListUser',
+    'as'    => 'admin.getListUser'
+]);

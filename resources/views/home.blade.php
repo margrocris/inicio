@@ -37,6 +37,10 @@
                         <a href="{{ route('admin.getCreateUser') }}">Crear usuarios</a>
                     </li>
 
+                    <li>
+                        <a href="{{ route('admin.getListUser') }}">Listar Usuarios</a>
+                    </li>
+
                 </div>
             </div>
         </div>
