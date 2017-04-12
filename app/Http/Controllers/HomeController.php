@@ -34,7 +34,6 @@ class HomeController extends Controller
 
     public function postCreateUser(Request $request)
     {
-        
         $nuevo_usuario = new User;
         $nuevo_usuario->id = $request->id;
         $nuevo_usuario->nickname = $request->nickname;
